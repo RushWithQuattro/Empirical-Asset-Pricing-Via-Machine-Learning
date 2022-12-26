@@ -1,1 +1,5 @@
 # Empirical-Asset-Pricing-Via-Machine-Learning
+
+This projects follows the methpodology proposed by Gu et al. (2020). Gu et al conducted a comparative analysis of the machine learning techniques in measuring equity risk premiums on a panel of 30,000 US equities over 60 years from 1957 to 2016. 97 predictive features including company fundatmentals, macro-economics indicators, and trade price time data are used. This projects expands the feature sets to around 200, and implemented 3 classes of ML models mentioned in the literature: Linear Model with ElasticNe; Boosted Regression Tree and Random Forests; FeedForward Neural Networks. Hyperparameters, Model Specifications and Train-Val-Test splits follows the method of Gu et al., which can be found in the appendix. 
+
+Gu, Shihao and Kelly, Bryan T. and Xiu, Dacheng, Empirical Asset Pricing via Machine Learning (September 13, 2019). Chicago Booth Research Paper No. 18-04, 31st Australasian Finance and Banking Conference 2018, Yale ICF Working Paper No. 2018-09, Available at SSRN: https://ssrn.com/abstract=3159577 or http://dx.doi.org/10.2139/ssrn.3159577
